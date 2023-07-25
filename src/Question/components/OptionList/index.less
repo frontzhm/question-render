@@ -1,0 +1,29 @@
+.question-option-list {
+  padding-left: 18px;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+
+  .option-item {
+    display: flex;
+    text-align: left;
+    overflow: hidden;
+    align-items: baseline;
+    margin-top: 10px;
+    line-height: 1.5em;
+    overflow-y: hidden;
+    padding-bottom: 3px;
+  }
+  &.cloze-option-list {
+    display: flex;
+    margin-top: 10px;
+    .option-item {
+      padding-right: 15px;
+      margin-top: 0;
+    }
+  }
+  .cloze-question-index {
+    padding-right: 10px;
+  }
+}
