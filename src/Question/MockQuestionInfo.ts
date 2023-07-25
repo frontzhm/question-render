@@ -51,10 +51,6 @@ export const fillblankInfo = {
   "smallQuestions": [],
 };
 export const completionInfo = {
-  "resourceType": "QUESTION",
-  "sourceId": "2100585503917694976",
-  "sourceType": 1,
-  "subjective": 0,
   "complete": 1,
   "completeTips": null,
   "support": 1,
@@ -174,10 +170,6 @@ export const completionInfo = {
   "chapterInfos": []
 };
 export const clozeInfo = {
-  "resourceType": "QUESTION",
-  "sourceId": "2099290212144865280",
-  "sourceType": 1,
-  "subjective": 0,
   "complete": 1,
   "completeTips": null,
   "support": 1,
@@ -855,10 +847,6 @@ export const clozeInfo = {
   "chapterInfos": []
 };
 export const fuheInfo = {
-  "resourceType": "QUESTION",
-  "sourceId": "2100681487242846208",
-  "sourceType": 1,
-  "subjective": 1,
   "complete": 1,
   "completeTips": null,
   "support": 1,
@@ -1482,10 +1470,6 @@ export const fuheInfo = {
   "chapterInfos": []
 };
 export const danxuanInfo = {
-  "resourceType": "QUESTION",
-  "sourceId": "2096210162955988992",
-  "sourceType": 1,
-  "subjective": 0,
   "complete": 1,
   "completeTips": null,
   "support": 1,
@@ -1598,10 +1582,6 @@ export const danxuanInfo = {
   "chapterInfos": []
 };
 export const duoxuanInfo = {
-  "resourceType": "QUESTION",
-  "sourceId": "2100667890802450432",
-  "sourceType": 1,
-  "subjective": 0,
   "complete": 1,
   "completeTips": null,
   "support": 1,
@@ -1714,10 +1694,6 @@ export const duoxuanInfo = {
   "chapterInfos": []
 };
 export const zhuguanInfo = {
-  "resourceType": "QUESTION",
-  "sourceId": "2100675510426755072",
-  "sourceType": 1,
-  "subjective": 1,
   "complete": 1,
   "completeTips": null,
   "support": 1,
@@ -1805,10 +1781,6 @@ export const zhuguanInfo = {
   "chapterInfos": []
 };
 export const panduanInfo = {
-  "resourceType": "QUESTION",
-  "sourceId": "2100670075548295168",
-  "sourceType": 1,
-  "subjective": 0,
   "complete": 1,
   "completeTips": null,
   "support": 1,
@@ -1912,10 +1884,6 @@ export const list:IQuestionInfo[] = [
   danxuanInfo,duoxuanInfo,panduanInfo,zhuguanInfo,fillblankInfo,completionInfo,fuheInfo,clozeInfo
 ]
 export const questionInfo = {
-  "resourceType": "QUESTION",
-  "sourceId": "2097907550972895232",
-  "sourceType": 1,
-  "subjective": 1,
   "complete": 1,
   "completeTips": null,
   "support": 1,

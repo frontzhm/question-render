@@ -33,16 +33,16 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "question",
-  "author": "zhm",
-  "module": "dist/question.esm.js",
+  "name": "question-render",
+  "author": "frontzhm",
+  "module": "dist/question-render.esm.js",
   "size-limit": [
     {
-      "path": "dist/question.cjs.production.min.js",
+      "path": "dist/question-render.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/question.esm.js",
+      "path": "dist/question-render.esm.js",
       "limit": "10 KB"
     }
   ],

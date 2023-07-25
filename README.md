@@ -1,4 +1,17 @@
-# TSDX React User Guide
+# 使用组件
+
+需要提前内置 mathjax 三方库
+
+```html
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML-full"></script>
+```
+
+```js
+import QuestionRender from 'question-render'
+<QuestionRender info={...}>
+```
+
+## 其余废话
 
 Congrats! You just saved yourself hours of work by bootstrapping this project with TSDX. Let’s get you oriented with what’s here and how to use it.
 
