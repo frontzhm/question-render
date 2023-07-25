@@ -6,6 +6,7 @@ import OptionList from './components/OptionList';
 // import OtherInfo from './components/OtherInfo';
 import Stem from './components/Stem';
 import TypeName from './components/TypeName';
+import './index.less';
 
 const Question: React.FC<{
   info: IQuestionInfo;

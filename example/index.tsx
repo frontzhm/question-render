@@ -1,12 +1,14 @@
 import 'react-app-polyfill/ie11';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { Thing } from '../.';
+import { QuestionRender } from '../.';
+import {list} from './MockQuestionInfo'
 
 const App = () => {
   return (
     <div>
-      <Thing />
+      {list.map(item=><QuestionRender info={item} key={item.questionId}/>)}
+      
     </div>
   );
 };
