@@ -2,7 +2,6 @@ import RichTextShow from '../RichTextShow';
 import { IQuestionInfo } from '../../IQuestionInfo';
 import React from 'react';
 import './index.less';
-import './index.css';
 // @ts-nocheck
 const Analysis: React.FC<{ info: IQuestionInfo }> = ({ info }) => {
   const hasSmallQuestions = info?.smallQuestions?.length > 0;
