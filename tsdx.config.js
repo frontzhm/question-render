@@ -6,8 +6,8 @@ module.exports = {
       postcss({
         inject: true,
         extract: !!options.writeMeta,
-        modules: true, // 使用css modules
-        // namedExport: true, // 类名导出
+        // modules: true, // 使用css modules 类名后面加随机数
+        namedExport: true, // 类名导出
         camelCase: true, // 支持驼峰
         // sass: true, // 是否使用sass
         less:true,
