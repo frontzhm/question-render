@@ -7,3 +7,4 @@ import { IQuestionInfo } from './Question/IQuestionInfo';
 export const QuestionRender = ({ info }: { info: IQuestionInfo }) => {
   return <Question info={info} />;
 };
+export default QuestionRender

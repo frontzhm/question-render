@@ -1,5 +1,10 @@
-# 发布 React 组件到 NPM - tsdx
-
+---
+title: 怎么发布 React 组件到 NPM - 使用tsdx
+tags: vue
+categories: vue
+theme: vue-pro
+highlight:
+---
 用一个工具[`tsdx`](https://github.com/jaredpalmer/tsdx)写 React 组件:
 
 ```shell
@@ -140,21 +145,15 @@ declare module '*.less' {
 
 这样less文件也可支持啦！
 
-## 注意的细节
-
-如果 npm 包名字是 mylib，将来发布后，需要这样引入：
-
-```js
-import { Thing } from 'mylib';
-```
-
-example 提供本地测试组件，非常方便，里面的 index.html 是 parcel 基于次生成的测试页面，需要修改可以修改。
-
 ## 发布
 
 根目录运行
 
 ```shell
 yarn build
+# nrm ls
+# nrm use npm
+npm login
 npm publish
 ```
+
